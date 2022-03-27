@@ -10,5 +10,31 @@ import method.method_return;
  */
 
 public class pasar_games {
-
+    public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        String username , password;
+        int s = 2000000;
+        System.out.println("selamat datang di pasar games");
+        System.out.println("silahkan login terlebih dahulu");
+        boolean cekKondisi = false;
+        while (!cekKondisi){
+            System.out.print("username : ");                                // usernamenya jhony_ceria
+            username = x.nextLine();
+            System.out.print("password : ");                                // passwordnya 123456
+            password = x.nextLine();
+            if (username.equals("jhony_ceria") && password.equals("123456")){
+                System.out.println("halo selamat datang jhony_ceria");
+                System.out.println("saldo anda saat ini : " + s);
+                System.out.println("silahkan pilih game");
+                System.out.println("1. genshin impact");
+                System.out.println("2. apex legend mobile");
+                scase1(x);
+                cekKondisi = true;
+            }
+            else {
+                System.out.println("username atau password salah");
+                System.out.println("mohon ulangi");
+            }
+        }
+    }
 }
