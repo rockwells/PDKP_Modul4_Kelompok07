@@ -45,7 +45,15 @@ public class pasar_games {
             case (1):
                 System.out.println("PAIMON");
                 System.out.println("halo traveler apa yang ingin kamu lakukan hari ini ?");
-                menu1();
+                public static void menu1(){ 
+
+                System.out.println("1. beli akun"); 
+
+                System.out.println("2. top up"); 
+
+                System.out.print("pilih nomor : "); 
+
+          } 
                 scase1a(x);
                 break;
             case (2):
