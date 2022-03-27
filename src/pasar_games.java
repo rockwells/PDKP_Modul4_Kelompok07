@@ -45,15 +45,7 @@ public class pasar_games {
             case (1):
                 System.out.println("PAIMON");
                 System.out.println("halo traveler apa yang ingin kamu lakukan hari ini ?");
-                public static void menu1(){ 
-
-                System.out.println("1. beli akun"); 
-
-                System.out.println("2. top up"); 
-
-                System.out.print("pilih nomor : "); 
-
-          } 
+                menu1();
                 scase1a(x);
                 break;
             case (2):
@@ -278,3 +270,23 @@ public class pasar_games {
         }
     }
 }
+
+    public static void menu1(){ 
+        System.out.println("1. beli akun"); 
+        System.out.println("2. top up"); 
+        System.out.print("pilih nomor : "); 
+       }
+    public static void jAkun1(){ 
+        System.out.println("1. sKrullg (ar55)                  Rp.2.200.000"); 
+        System.out.println("diluc(c3),keqing(c4),yae miko(c2),mona(c2),raiden shougun(c2),jean(c3)"); 
+        System.out.println("all b4 ready for c6"); 
+        System.out.println("2. namelessKing (ar40)             Rp.1.000.000"); 
+        System.out.println("diluc(c2),ganyu(c1),venti(c0),mona(c2),jean(c3)"); 
+        System.out.println("all b4 ready for c6"); 
+        System.out.println("3. pak Dadang Hei (ar30)           Rp.600.000"); 
+        System.out.println("ayaka(c2),zhongli(c0),mona(c0),jean(c0)"); 
+        System.out.println("all b4 ready for c3 except bennet(c5)"); 
+        System.out.println("4. oxorb13 (ar8)           Rp.100.000"); 
+        System.out.println("ayaka(c1)"); 
+        System.out.println("beido(c0),xiangling(c1),barbara(c1),noelle(c0),diona(c0)"); 
+    }  
